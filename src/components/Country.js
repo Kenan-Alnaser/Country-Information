@@ -15,7 +15,7 @@ const Country = ({ results }) => {
       timezones,
     } = obj;
     return (
-      <div key={i}>
+      <div key={i} className="countries">
         <h2>{name}</h2>
         <h5>Region: {region}</h5>
         <h5>
