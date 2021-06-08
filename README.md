@@ -1,3 +1,11 @@
+# About this App
+
+An app that lets you search a country, and gives you the information about it such as currency, language, region, flag, and population.
+
+# Screenshot
+
+![CountryInformation](./screenshots/country.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
