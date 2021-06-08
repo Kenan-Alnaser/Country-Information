@@ -21,10 +21,6 @@ const App = () => {
     console.log(textToUrl);
     let endPoint = `https://restcountries.eu/rest/v2/name/${textToUrl}`;
 
-    // fetch(endPoint)
-    // .then((res)=> res.json())
-    // .then((data)=>setResults(data))
-
     axios(endPoint)
       .then(({ data }) => setResults(data))
       .catch((err) => console.log(`Your had an ${err}`));
