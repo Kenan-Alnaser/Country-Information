@@ -21,7 +21,7 @@ const Country = ({ results }) => {
         <h5>
           Currencies: {currencies[0].symbol} {currencies[0].name}
         </h5>
-        <h5>languages: {languages[0].name}</h5>
+        <h5>Languages: {languages[0].name}</h5>
         <h5>Calling Code: +{callingCodes}</h5>
         <h5>Capital: {capital}</h5>
         <h5>Population: {population}</h5>
