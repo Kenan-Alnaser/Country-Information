@@ -16,16 +16,16 @@ const Country = ({ results }) => {
     } = obj;
     return (
       <div key={i} className="countries">
-        <h2>{name}</h2>
-        <h5>Region: {region}</h5>
-        <h5>
+        <h2>{name}:</h2>
+        <h4>Region: {region}</h4>
+        <h4>
           Currencies: {currencies[0].symbol} {currencies[0].name}
-        </h5>
-        <h5>Languages: {languages[0].name}</h5>
-        <h5>Calling Code: +{callingCodes}</h5>
-        <h5>Capital: {capital}</h5>
-        <h5>Population: {population}</h5>
-        <h5>Time Zones: {timezones}</h5>
+        </h4>
+        <h4>Languages: {languages[0].name}</h4>
+        <h4>Calling Code: +{callingCodes}</h4>
+        <h4>Capital: {capital}</h4>
+        <h4>Population: {population}</h4>
+        <h4>Time Zones: {timezones}</h4>
         <img src={flag} alt={name} className="flag" />
       </div>
     );
