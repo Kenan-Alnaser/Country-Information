@@ -3,8 +3,10 @@ import React from "react";
 const Loading = () => {
   return (
     <React.Fragment>
-      <h4>🕸</h4>
-      <h6>Loading ...</h6>
+      <div className="loadingContainer">
+        <div className="loader"></div>
+        <h1>Loading ...</h1>
+      </div>
     </React.Fragment>
   );
 };
